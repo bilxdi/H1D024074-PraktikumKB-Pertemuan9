@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Mengimpor fungsi-fungsi dari file lain
-from inisiasipopulasi import inisialisasi_populasi
+from InisiasiPopulasi import inisialisasi_populasi
 from EvaluasiFitness import hitung_fitness
 from selection import roulette_wheel_selection, tournament_selection
 from crossover import one_point_crossover, two_point_crossover, uniform_crossover
