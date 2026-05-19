@@ -119,7 +119,7 @@ def run_ga(jumlah_generasi, jumlah_populasi, prob_crossover, prob_mutasi, kapasi
     selected_value = hitung_fitness(best_individu, barang, kapasitas_tas)
     selected_weight = sum([barang[i][2] for i in range(len(best_individu)) if best_individu[i] == 1])
 
-    print(f"Nilai Fitness Terbaik: {selected_value}")
+    print(f"\nNilai Fitness Terbaik: {selected_value}")
     print(f"Total Bobot: {selected_weight}")
     print("Barang Terpilih:")
     for item in selected_items:
